@@ -1,0 +1,111 @@
+.footer{
+  background: #282828;
+  &-main{
+    padding: 81px 0 71px;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  &-mainBlock{
+    margin-right: 85px;
+    &__logo{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 49px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    &__text{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ADADAD;
+      margin-bottom: 42px;
+    }
+    &__contact{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ADADAD;
+      margin-bottom: 2px;
+    }
+    &__link{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+      margin-bottom: 3px;
+      &:hover{
+        color: #2ECC71;
+      }
+    }
+  }
+  &-subBlock{
+    font-style: normal;
+    line-height: 22px;
+    margin-right: 158px;
+    &:last-child{
+      margin-right: 0;
+    }
+    &__title{
+      font-weight: 500;
+      color: #ADADAD;
+      font-size: 18px;
+      margin-bottom: 32px;
+    }
+    &__item{
+      margin-bottom: 6px;
+      &:last-child{
+      margin-bottom: 0;
+    }
+    }
+    &__link{
+      color: #FFFFFF;
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 11px;
+      &:hover{
+        color: #2ECC71;
+      }
+    }
+}
+  &-social{
+    padding: 35px 0 50px;
+    .pay-block{
+      &__title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+      }
+      &__menu{
+        display: flex;
+      }
+      &__items{
+        margin-right: 20px;
+      }
+    }
+  }
+  &-socialBlock{
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22px;
+      color: #ADADAD;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    &__items{
+      margin-right: 12px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+

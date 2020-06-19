@@ -1,0 +1,19 @@
+@import "../../css/bootstrap-grid.min.css";
+@import "../../css/style.css";
+@import "table";
+@import "radio";
+
+.order {
+  padding: 60px 0 200px;
+
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 25px;
+  }
+
+
+}

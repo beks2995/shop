@@ -1,0 +1,21 @@
+@import url(../../css/bootstrap-grid.min.css);
+@import url(../../css/style.css);
+.search .rating { font-size: 0; width: 92px; height: 15px; margin-bottom: 10px; }
+.search .rating .star { width: 15px; height: 15px; z-index: 5; display: inline-block; background-image: url("../../images/search/star-active.png"); margin-right: 4px; }
+.search .rating .star:nth-child(5) { background-image: url("../../images/search/star.png"); margin-right: 0; }
+
+.search { padding: 60px 0 160px; }
+.search__title { font-style: normal; font-weight: bold; font-size: 24px; line-height: 29px; color: #55ACEE; margin-bottom: 10px; }
+.search__subTitle { font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: #828282; margin-bottom: 27px; }
+.search-block { border-top: 1px solid #C4C4C4; border-bottom: 1px solid #C4C4C4; }
+.search-block:last-child { border-top: none; }
+.search-card { display: flex; margin: 27px 0; }
+.search-card img { margin-right: 40px; }
+.search-card-right__title { font-style: normal; font-weight: normal; font-size: 14px; line-height: 17px; color: #333333; margin-bottom: 10px; }
+.search-card-right__title span { font-weight: bold; color: #333333; }
+.search-card-right__author { font-style: normal; font-weight: 500; font-size: 14px; line-height: 20px; color: #C4C4C4; margin-bottom: 25px; }
+.search-card-right__author span { color: #686868; }
+.search-card-right a { display: inline-block; border: 1px solid #2ECC71; box-sizing: border-box; border-radius: 20px; padding: 8px 28px; font-style: normal; font-weight: 500; font-size: 14px; line-height: 20px; color: #333333; }
+.search-card-right a:hover { color: #2ECC71; }
+
+/*# sourceMappingURL=style.css.map */

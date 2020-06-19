@@ -1,0 +1,148 @@
+.books-main{
+  .new-books{
+    margin: 0 0 16px;
+    &:nth-child(5){
+      margin: 0 5px 29px;
+    }
+    &-content{
+      max-width: 204px;
+
+      &__author{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ADADAD;
+      }
+      &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #686868;
+      }
+    }
+    &-card{
+      max-height: 299.42px;
+      max-width: 231px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border: 1px solid #C4C4C4;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 12px;
+      cursor: pointer;
+      transition: 0.1s all;
+      &:hover{
+        border: 1px solid #FFFFFF;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        transform: scale(1.01, 1.04);
+      }
+      &__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px 5px;
+      }
+      &__price{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        color: #232323;
+        text-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        span{
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+      &__buyBtn{
+        background: #2ECC71;
+        border-radius: 100px;
+        border: none;
+        outline: none;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 12px;
+        color: #FFFFFF;
+        padding: 7px 13px;
+        margin: -3px -3px 1px 0;
+        cursor: pointer;
+        &:hover{
+          background: #27AE60;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom: 14px;
+    &:first-child{
+      margin-top: 85px;
+    }
+  }
+  a{
+    display: inline-block;
+    &:focus{
+      outline: none;
+    }
+  }
+  .slick-arrow{
+    position: absolute;
+    z-index: 3;
+    top: -25px;
+    right: 0;
+    width: 9.5px;
+    height: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:focus{
+      outline: none;
+    }
+  }
+  .slick-list{
+    max-height: 367px;
+  }
+  .slick-slide{
+    display: block;
+    visibility: hidden;
+    transition: 0.15s all;
+    &.slick-active{
+      outline: none;
+      visibility: visible;
+      margin: 11px 5px 11px 5px;
+      img{
+        width: 100%;
+      }
+    }
+    &.slick-current{
+      margin: 11px 5px 11px 0;
+    }
+  }
+
+  .slick-prev{
+    background: url("../../images/content/other-sliders/icons/prev.png") center/cover;
+    right: 13px;
+    &.slick-disabled{
+      background: url("../../images/content/other-sliders/icons/prev-disabled.png") center/cover;
+    }
+  }
+  .slick-next{
+    background: url("../../images/content/other-sliders/icons/next1.png") center/cover;
+    right: -4px;
+    &.slick-disabled{
+      background: url("../../images/content/other-sliders/icons/next-disabled.png") center/cover;
+    }
+  }
+}

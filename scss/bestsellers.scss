@@ -1,0 +1,140 @@
+.bestsellers{
+  background: #2A4A9B;
+  padding: 72px 0 128px;
+  &__title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 0 0 49px -8px;
+  }
+  &-card{
+    width: 234.9px;
+    height: 303.61px;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    &__bottom{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 42.51px;
+      width: 100%;
+      background: rgba(39, 174, 96, 0.9);
+      display: flex;
+      justify-content: space-between;
+      font-style: normal;
+      font-weight: normal;
+      color: #FFFFFF;
+      padding: 15px 18px 0 14px;
+      span{
+        font-weight: 500;
+        margin: 0 2px 0 1px;
+      }
+    }
+    &__newPrice{
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &__oldPrice{
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: -2px;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 1.74px;
+        height: 38.04px;
+        background: rgba(255, 4, 4, 0.8);
+        transform: matrix(0.42, -0.91, 0.91, 0.42, 0, 0);
+        top: -9px;
+        left: 15px;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 1.74px;
+        height: 38.04px;
+        background: rgba(255, 4, 4, 0.8);
+        transform: matrix(0.42, 0.91, -0.91, 0.42, 0, 0);
+        top: -8px;
+        left: 15px;
+      }
+    }
+  }
+  &-box{
+    max-width: 234.92px;
+    margin-left: 12px;
+    a{
+      &:focus{
+        outline: none;
+      }
+    }
+    &__author{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #DADADA;
+      margin-left: 1px;
+    }
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      margin-left: 1px;
+    }
+  }
+  &__slider{
+    .slick-arrow{
+      position: absolute;
+      z-index: 3;
+      bottom: -108px;
+      width: 22.89px;
+      height: 22.89px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      left: 50%;
+      transform: translateY(-50%);
+      &:focus{
+        outline: none;
+      }
+    }
+    .slick-list{
+      max-height: 383px;
+    }
+    .slick-slide{
+      &.slick-active{
+        outline: none;
+      }
+    }
+
+    .slick-prev{
+      background: url("../images/bestsellers/icons/prev.png") center/cover;
+      left: 48%;
+      &.slick-disabled{
+        background: url("../images/bestsellers/icons/prev-dis.png") center/cover;
+      }
+    }
+    .slick-next{
+      background: url("../images/bestsellers/icons/next.png") center/cover;
+      left: 51%;
+      &.slick-disabled{
+        background: url("../images/bestsellers/icons/next-dis.png") center/cover;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,119 @@
+@import "../../css/bootstrap-grid.min.css";
+@import "../../css/style.css";
+
+.news {
+  &-page {
+    padding: 42px 0 150px;
+
+    &-nav {
+      &__menu {
+        display: flex;
+        border: 1px solid #c4c4c4;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        width: 306px;
+        margin: 60px auto 0;
+        overflow: hidden;
+      }
+
+      &__items {
+        margin-bottom: 0 !important;
+        border-left: 1px solid #c4c4c4;
+        &:first-child{
+          border-left: none;
+          a{
+            padding: 11px 22px;
+          }
+        }
+        &:last-child{
+          a{
+            padding: 11px 22px;
+          }
+
+         }
+
+      }
+      &__link{
+        padding: 11px 15px;
+        font-weight: 600;
+        color: #27AE60;
+        display: inline-block;
+        &_disabled{
+          color: #C4C4C4;
+          &:hover{
+            color: #C4C4C4 !important;
+          }
+        }
+
+        &:hover{
+          background: #27AE60;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  &-tabs {
+    &__nav {
+      display: flex;
+      margin-top: 10px;
+      position: relative;
+      width: 627px;
+    }
+
+    &__items {
+      margin-right: 30px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #C4C4C4;
+      cursor: pointer;
+
+      &_active {
+        color: #333333;
+      }
+    }
+
+    &__tab {
+      display: none;
+
+      ul {
+        li {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          color: #828282;
+          margin-bottom: 15px;
+        }
+      }
+
+      &_active {
+        display: block;
+      }
+    }
+  }
+
+  &-box {
+    margin-top: 30px;
+
+    p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #686868;
+      margin: 10px 0;
+    }
+
+    span {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #ADADAD;
+    }
+  }
+}
+

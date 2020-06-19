@@ -1,0 +1,24 @@
+@import url(../../../css/bootstrap-grid.min.css);
+@import url(../../../css/style.css);
+.news-content { padding: 42px 0 160px; }
+.news-content-sidebar { width: 433px; float: right; margin-left: 40px; }
+.news-content-sidebar__title { font-style: normal; font-weight: 600; font-size: 18px; line-height: 22px; color: #333333; margin: 8px 0 30px; }
+.news-content-sidebar ul { border-left: 1px solid #D2E9FA; border-right: 1px solid #D2E9FA; padding-left: 25px; padding-right: 25px; }
+.news-content-sidebar ul li { margin-bottom: 48px; position: relative; }
+.news-content-sidebar ul li a { display: flex; align-items: center; font-style: normal; font-weight: 600; font-size: 14px; line-height: 17px; color: #333333; }
+.news-content-sidebar ul li:before { content: ''; position: absolute; width: 100%; height: 1px; background: #D2E9FA; bottom: -20px; }
+.news-content-sidebar ul li img { max-width: 93px; max-height: 80px; margin-right: 19px; }
+.news-content-about { padding-right: 40px; }
+.news-content-about__title { font-style: normal; font-weight: 700; font-size: 30px; line-height: 40px; color: #333333; margin-bottom: 25px; }
+.news-content-about .bigImg { max-width: 781px; max-height: 384px; margin-bottom: 30px; }
+.news-content-about__date { font-style: normal; font-weight: 500; font-size: 12px; line-height: 15px; color: #ADADAD; margin-bottom: 20px; }
+.news-content-about p { font-style: normal; font-weight: normal; font-size: 18px; line-height: 25px; color: #333333; margin-bottom: 30px; }
+.news-content-about__share { font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #ADADAD; margin-bottom: 10px; }
+.news-content-about__social { margin-bottom: 50px; }
+.news-content-about__social a { margin-right: 10px; }
+.news-content-interest__title { font-style: normal; font-weight: 600; font-size: 24px; line-height: 29px; color: #000000; }
+.news-content-interest .news-box { margin: 20px 0; }
+.news-content-interest .news-box img { margin-bottom: 10px; }
+.news-content-interest .news-box__text { font-style: normal; font-weight: 600; font-size: 16px; line-height: 20px; color: #686868; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+.book-crumbs{
+  display: flex;
+  margin: 25px 0;
+  &__items{
+    margin-right: 12px;
+    a{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #828282;
+    }
+  }
+}

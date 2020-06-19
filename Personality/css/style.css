@@ -1,0 +1,51 @@
+@import url(../../css/bootstrap-grid.min.css);
+@import url(../../css/style.css);
+.personality { padding: 60px 0 150px; }
+.personality__title { font-style: normal; font-weight: 600; font-size: 30px; line-height: 37px; color: #333333; margin-bottom: 25px; }
+.personality__tabs-nav { display: flex; overflow-x: auto; }
+.personality__tabs-items { margin-right: 10px; width: 186px; height: 40px; cursor: pointer; background: #E3E3E3; border-radius: 10px; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #333333; display: flex; justify-content: center; align-items: center; }
+.personality__tabs-items:hover { box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); }
+.personality__tabs-items_active { background: #26A9E0; color: #FFFFFF; }
+.personality__tab { display: none; }
+.personality__tab_active { display: block; }
+.personality__favorites { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.personality-content { max-width: 231px; margin: 25px 7px 0; }
+.personality-content a { display: inline-block; }
+.personality-content a:focus { outline: none; }
+.personality-content__author { font-style: normal; font-weight: normal; font-size: 14px; line-height: 17px; color: #ADADAD; }
+.personality-content__title { font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #686868; }
+.personality-card { max-height: 299.42px; max-width: 231px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border: 1px solid #C4C4C4; position: relative; overflow: hidden; margin-bottom: 12px; cursor: pointer; transition: 0.1s all; }
+.personality-card:hover { border: 1px solid #FFFFFF; box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2); transform: scale(1.01, 1.04); }
+.personality-card__bottom { display: flex; justify-content: space-between; align-items: center; padding: 10px 15px 5px; }
+.personality-card__price { font-style: normal; font-weight: normal; font-size: 12px; line-height: 17px; color: #232323; text-shadow: 0 0 15px rgba(0, 0, 0, 0.2); transform: matrix(1, 0, 0, 1, 0, 0); }
+.personality-card__price span { font-size: 14px; font-weight: bold; }
+.personality-card__buyBtn { background: #2ecc71; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; border: none; outline: none; font-style: normal; font-weight: 300; font-size: 14px; line-height: 12px; color: #FFFFFF; padding: 7px 13px; margin: -3px -3px 1px 0; cursor: pointer; }
+.personality-card__buyBtn:hover { background: #27AE60; }
+.personality-card__buyBtn:focus { outline: none; }
+.personality-form { margin-top: 25px; border: 1px solid #26A9E0; border-radius: 10px; width: 972px; height: 240px; padding: 50px 40px 30px; display: flex; flex-flow: column wrap; position: relative; }
+.personality-form label { display: flex; justify-content: space-between; align-items: center; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #828282; margin-bottom: 15px; margin-right: 85px; }
+.personality-form input { width: 250px; height: 38px; border: 1px solid #26A9E0; border-radius: 10px; padding: 0 15px; outline: none; }
+.personality-form input:focus { outline: none; }
+.personality-form button { position: absolute; bottom: 30px; right: 124px; width: 250px; height: 38px; background: #2ECC71; border-radius: 10px; border: none; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #FFFFFF; outline: none; cursor: pointer; }
+.personality-order__tabs-nav { display: flex; margin-top: 40px; margin-bottom: 25px; position: relative; width: 627px; }
+.personality-order__tabs-nav:before { content: ''; position: absolute; width: 100%; height: 1px; background: #C4C4C4; bottom: -5px; left: 0; }
+.personality-order__tabs-items { margin-right: 35px; font-weight: 500; font-size: 18px; line-height: 22px; color: #828282; cursor: pointer; }
+.personality-order__tabs-items_active { color: #26A9E0; }
+.personality-order__tab { display: none; }
+.personality-order__tab ul li { font-style: normal; font-weight: normal; font-size: 14px; line-height: 17px; color: #828282; margin-bottom: 15px; }
+.personality-order__tab_active { display: block; }
+.personality-setUp { display: flex; padding: 25px 0; }
+.personality-setUp-title { font-style: normal; font-weight: 600; font-size: 18px; line-height: 22px; color: #26A9E0; margin-bottom: 25px; }
+.personality-setUp-form { padding-right: 78px; width: 392px; border-right: 1px solid #C4C4C4; }
+.personality-setUp-form label { font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #828282; }
+.personality-setUp-form input { margin: 10px 0; width: 100%; height: 34px; border: 1px solid #26A9E0; border-radius: 10px; padding: 0 15px; outline: none; }
+.personality-setUp-form input:focus { outline: none; }
+.personality-setUp-form input:last-child { margin: 10px 0 22px; }
+.personality-setUp-form button { width: 160px; height: 34px; background: #2ECC71; border-radius: 10px; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; color: #FFFFFF; border: none; outline: none; cursor: pointer; }
+.personality-setUp-form button:focus { outline: none; }
+.personality-setUp-delete { width: 430px; padding-left: 78px; }
+.personality-setUp-delete__text { font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #828282; margin-bottom: 25px; }
+.personality-setUp-delete button { width: 160px; height: 34px; border: 1px solid #2ECC71; border-radius: 10px; font-weight: 500; font-size: 14px; line-height: 17px; color: #333333; background: none; cursor: pointer; }
+.personality-setUp-delete button:hover { color: #2ECC71; }
+
+/*# sourceMappingURL=style.css.map */
